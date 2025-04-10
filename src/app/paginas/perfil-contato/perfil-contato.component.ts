@@ -4,6 +4,7 @@ import { SeparadorComponent } from "../../componentes/separador/separador.compon
 import { Contato } from '../../componentes/contato/contato';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { ContatoService } from '../../services/contato.service';
+import { CabecalhoComponent } from '../../componentes/cabecalho/cabecalho.component';
 
 @Component({
   selector: 'app-perfil-contato',
@@ -12,7 +13,8 @@ import { ContatoService } from '../../services/contato.service';
     ContainerComponent, 
     SeparadorComponent,
     RouterLink,
-    SeparadorComponent
+    SeparadorComponent,
+    CabecalhoComponent
   ],
   templateUrl: './perfil-contato.component.html',
   styleUrl: './perfil-contato.component.css'
